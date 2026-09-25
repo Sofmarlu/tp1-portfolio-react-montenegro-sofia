@@ -3,7 +3,7 @@ import "../css/About.css";
 function About(props) {
   return (
     <>
-      <section className="about">
+      <section className="about" id="about">
         <h2 className="about-titulo">Sobre mi</h2>
 
         <p className="about-descripcion">{props.descripcion}</p>
@@ -16,7 +16,7 @@ function About(props) {
 
           <div className="about-stat">
             <span className="about-stat-numero">
-              +{props.proyectosRealizados}Proyectos
+              +{props.proyectosRealizados} Proyectos
             </span>
             <span className="about-stat-label">Realizados</span>
           </div>

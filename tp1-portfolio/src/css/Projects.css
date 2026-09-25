@@ -1,0 +1,48 @@
+.projects {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  padding: 150px 50px;
+  
+}
+
+.projects-titulo {
+  font-family: var(--font-titles);
+  color: var(--accent);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.projects-lista {
+  font-family: var(--font-titles);
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.projects-card.card {
+  background-color: var(--track);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.projects-card.card .card-title {
+  color: var(--accent);
+}
+
+.projects-card.card .card-text {
+  color: var(--text-secondary);
+}   
+
+.projects-btn.btn-primary {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.projects-btn.btn-primary:hover {
+  background-color: var(--accent);
+  opacity: 0.85;
+}

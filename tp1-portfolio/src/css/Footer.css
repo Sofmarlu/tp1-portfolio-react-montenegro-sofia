@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  padding: 24px 20px;
+  text-align: center;
+}
+
+.footer-nombre {
+  color: var(--accent);
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.footer-copy {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  margin: 0;
+}

@@ -1,27 +1,31 @@
 .about {
-  background-color: var(--bg-secondary);
+  background-color: var(--accent);
   color: var(--text-primary);
   padding: 50px 20px;
   text-align: center;
 }
 
 .about-titulo {
-  color: var(--accent);
+  color: var(--track);
   font-family: var(--font-titles);
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-bottom: 12px;
 }
 
 .about-descripcion {
+  font-family: var(--font-body);
+  font-weight: 500;
   max-width: 500px;
   margin: 0 auto;
-  color: var(--text-secondary);
+  color: var(--border);
   font-size: 0.95rem;
   text-align: justify;
   line-height: 1.6;
 }
 
 .about-stats {
+  color: var(--border);
+  font-family: var(--font-titles);
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -30,17 +34,22 @@
 }
 
 .about-stat {
+  color: var(--border);
+  font-family: var(--font-titles);
   display: flex;
   flex-direction: column;
 }
 
 .about-stat-numero {
-  color: var(--accent);
+  color: var(--border);
+  font-family: var(--font-titles);
+ 
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .about-stat-label {
-  color: var(--text-secondary);
-  font-size: 0.85rem;
+  font-family: var(--font-titles);
+  color: var(--border);
+  font-size: 1rem;
 }

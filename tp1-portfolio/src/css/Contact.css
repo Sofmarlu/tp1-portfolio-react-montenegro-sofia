@@ -1,0 +1,49 @@
+.contact {
+  background-color: var(--text-primary);
+  color: var(--text-primary);
+  padding: 60px 20px;
+  text-align: center;
+  padding: 100px 50px;
+}
+
+.contact-titulo {
+   font-family: var(--font-titles);
+  color: var(--track);
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.contact-descripcion {
+  max-width: 400px;
+  margin: 0 auto;
+  color: var(--bg-primary);
+  font-size: 0.9rem;
+}
+
+.contact-links {
+  margin-top: 28px;
+  gap: 14px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  color: var(--border);
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  transition: 0.2s ease;
+}
+
+.contact-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.contact-icon {
+  font-size: 1rem;
+}
+
