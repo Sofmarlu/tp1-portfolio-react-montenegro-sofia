@@ -20,17 +20,16 @@
   line-height: 1.5;
 }
 
-.skills-btn {
+.skills-btn { 
+  background-color: var(--accent);
   font-weight: 650;
   margin-top: 20px;
   padding: 8px 20px;
   border: 1px solid var(--accent);
   border-radius: 6px;
-  background: transparent;
-  color: var(--accent);
   font-size: 1rem;
   cursor: pointer;
-  transition: 0.2s ease;
+  transition: 0.5s ease;
 }
 
 .skills-btn:hover {

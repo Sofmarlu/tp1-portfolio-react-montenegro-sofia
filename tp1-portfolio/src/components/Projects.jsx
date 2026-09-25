@@ -13,7 +13,7 @@ const proyectos = [
   {
     id: 2,
     titulo: "Primer Portfolio ",
-    descripcion: "Primer portfolio de programacion para la materia programacion 3",
+    descripcion: "Primer portfolio para la materia Programacion 3",
     img: "/img/image.png",
     link: "https://primerportfolioooo.netlify.app/",
   },

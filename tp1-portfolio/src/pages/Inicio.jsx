@@ -10,7 +10,7 @@ function Inicio() {
   return (
     <>
       <Header></Header>
-      <Hero profesion="Full Stack developer" nombre="Sofia Montenegro" />
+      <Hero profesion="Full Stack Developer" nombre="Sofia Montenegro" />
       <About
         descripcion="Soy una estudiante de Programación en la UTN – Facultad Regional Tucumán, formándome en desarrollo web y ciberseguridad. Me considero una persona curiosa y autodidacta, interesada en entender cómo funcionan las tecnologías y seguir aprendiendo a través de nuevos proyectos."
         anios={2}

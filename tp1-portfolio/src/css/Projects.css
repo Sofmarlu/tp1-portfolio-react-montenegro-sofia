@@ -1,17 +1,20 @@
 .projects {
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  padding: 50px 20px;
+  padding: 150px 50px;
+  
 }
 
 .projects-titulo {
+  font-family: var(--font-titles);
   color: var(--accent);
-  font-size: 1.5rem;
+  font-size: 3rem;
   text-align: center;
   margin-bottom: 24px;
 }
 
 .projects-lista {
+  font-family: var(--font-titles);
   max-width: 700px;
   margin: 0 auto;
   display: flex;
@@ -21,7 +24,7 @@
 }
 
 .projects-card.card {
-  background-color: var(--bg-secondary);
+  background-color: var(--track);
   border: 1px solid var(--border);
   color: var(--text-primary);
 }
