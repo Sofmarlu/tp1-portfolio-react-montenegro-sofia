@@ -26,8 +26,7 @@ npm run dev
 
 El proyecto se encuentra disponible en este repositorio de github:  https://github.com/Sofmarlu/tp1-portfolio-react-montenegro-sofia
 
-## Demo / Capturas
-/img/captura proyecto
+## Demo
 
 demo: https://6ab6f6496a0dcac94396b1ea--dancing-peony-7f8f4d.netlify.app/
 
