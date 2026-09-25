@@ -4,14 +4,17 @@
 
 :root {
   --bg-primary: #05071A;        
-  --bg-secondary: #05091F;   
+  --bg-secondary: #181b29;   
   --accent: #5854FE;           
   --border: #1F1A5C;            
   --track: #12163E;             
   --text-primary: #E8E8F5;     
   --text-secondary: #8B8FB8;    
+
+  --font-body: 'Inter', sans-serif;
+  --font-titles: 'Geist Pixel', sans-serif;
 }
 
 body{
-  font-family: Inter;
+  font-family: var(--font-body)
 }

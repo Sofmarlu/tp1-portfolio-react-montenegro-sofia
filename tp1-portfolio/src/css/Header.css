@@ -1,3 +1,9 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 :root {
   --bg-primary: #05071A;        
   --bg-secondary: #05091F;   
@@ -5,7 +11,10 @@
   --border: #1F1A5C;            
   --track: #12163E;             
   --text-primary: #E8E8F5;     
-  --text-secondary: #8B8FB8;    
+  --text-secondary: #8B8FB8;  
+  --font-body: 'Inter', sans-serif;
+  --font-titles: 'Geist Pixel', sans-serif;
+  
 }
 
 
@@ -17,6 +26,8 @@
 }
 
 .nav-inicio .navbar-brand {
+
+    font-family: var(--font-titles);
   color:var(--accent)
 }
 
