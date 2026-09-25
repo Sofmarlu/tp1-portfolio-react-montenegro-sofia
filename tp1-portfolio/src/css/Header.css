@@ -1,0 +1,20 @@
+
+.nav-inicio{
+  background-color: var(--bg-secondary)
+
+  
+}
+
+.nav-inicio .navbar-brand {
+
+    font-family: var(--font-titles);
+  color:var(--accent)
+}
+
+.nav-inicio .nav-link {
+  color: var(--accent)
+}
+
+.nav-inicio .nav-link:hover {
+  color:var(--text-secondary)
+}

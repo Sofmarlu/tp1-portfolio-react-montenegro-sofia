@@ -1,0 +1,42 @@
+.hero {
+  background-color: var(--bg-secondary);
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.hero-saludo {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.hero-titulo {
+ font-family: var(--font-titles);
+  font-size: 4rem;
+  color: var(--accent);
+  margin: 8px 0 0;
+}
+
+.hero-subtitulo {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  margin: 6px 0 0;
+}
+
+.btn-Hero {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 10px 20px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.2s ease;
+}
+
+.btn-Hero:hover {
+  background-color: var(--accent);
+  color: var(--bg-primary);
+}
