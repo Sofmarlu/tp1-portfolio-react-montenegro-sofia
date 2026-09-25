@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Projects from "../components/Projects";
 
 function Inicio() {
   return (
@@ -12,6 +13,8 @@ function Inicio() {
         anios={2}
         proyectosRealizados={10}
       ></About>
+
+      <Projects></Projects>
     </>
   );
 }
