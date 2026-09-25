@@ -26,7 +26,7 @@ function Contact() {
         <h1 className="contact-titulo">Contacto</h1>
 
         <p className="contact-descripcion">
-          ¿Tenés un proyecto en mente o querés charlar? Escribime.
+          ¿Tenés un proyecto en mente? Escribime.
         </p>
         <br />
 
