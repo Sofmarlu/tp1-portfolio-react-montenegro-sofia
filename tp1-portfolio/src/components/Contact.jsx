@@ -7,6 +7,7 @@ import "../css/Contact.css";
 
 
 function Contact() {
+  
   const [copiado, setCopiado] = useState(false);
 
   const email = "sofymontenegroruiz@gmail.com";
