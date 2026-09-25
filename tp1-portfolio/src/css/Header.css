@@ -1,10 +1,14 @@
 
 .nav-inicio{
-  background-color: var(--bg-secondary)
+  background-color: var(--bg-primary)
 
   
 }
 
+.nav-link{
+  
+  font-family: var(--font-titles);
+}
 .nav-inicio .navbar-brand {
 
     font-family: var(--font-titles);

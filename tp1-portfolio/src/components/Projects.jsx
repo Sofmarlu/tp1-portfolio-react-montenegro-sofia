@@ -21,7 +21,7 @@ const proyectos = [
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <h2 className="projects-titulo">Proyectos</h2>
       <div className="projects-lista">
 

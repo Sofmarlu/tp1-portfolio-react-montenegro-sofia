@@ -1,4 +1,5 @@
 .skills {
+  font-family: var(--font-titles);
   background-color: var(--bg-secondary);
   color: var(--text-primary);
   padding: 50px 20px;
@@ -6,27 +7,28 @@
 }
 
 .skills-titulo {
-  color: var(--accent);
-  font-size: 1.5rem;
+  color: var(--text-primary);
+  font-size: 3rem;
   margin-bottom: 8px;
 }
 
 .skills-descripcion {
   max-width: 480px;
   margin: 0 auto;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-size: 0.9rem;
   line-height: 1.5;
 }
 
 .skills-btn {
+  font-weight: 650;
   margin-top: 20px;
   padding: 8px 20px;
   border: 1px solid var(--accent);
   border-radius: 6px;
   background: transparent;
   color: var(--accent);
-  font-size: 0.85rem;
+  font-size: 1rem;
   cursor: pointer;
   transition: 0.2s ease;
 }
@@ -37,6 +39,8 @@
 }
 
 .skills-lista {
+  font-family: var(--font-titles);
+
   max-width: 500px;
   margin: 28px auto 0;
   display: flex;
@@ -46,6 +50,7 @@
 }
 
 .skills-item-info {
+  font-family: var(--font-titles);
   display: flex;
   justify-content: space-between;
   font-size: 0.9rem;
@@ -53,6 +58,7 @@
 }
 
 .skills-barra-track {
+
   width: 100%;
   height: 8px;
   background-color: var(--track);
@@ -64,4 +70,7 @@
   height: 100%;
   background-color: var(--accent);
   border-radius: 4px;
+}
+.skills-span{
+  font-family: var(--font-titles);
 }

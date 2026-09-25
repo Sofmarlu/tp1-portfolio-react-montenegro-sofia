@@ -21,7 +21,7 @@ function Contact() {
 
 
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <Container>
         <h1 className="contact-titulo">Contacto</h1>
 

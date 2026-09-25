@@ -1,11 +1,11 @@
 .hero {
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-primary);
   text-align: center;
   padding: 80px 20px 60px;
 }
 
 .hero-saludo {
-  font-size: 1rem;
+font-family: var(--font-titles); 
   color: var(--text-secondary);
   margin: 0;
 }
@@ -24,19 +24,23 @@
   margin: 6px 0 0;
 }
 
-.btn-Hero {
+.btn-Hero {  
+   font-size: 3rem;
+  background-color: var(--accent);
+  font-weight: 700;
+  color: var(--track);
   display: inline-block;
   margin-top: 24px;
   padding: 10px 20px;
   border: 1px solid var(--accent);
   border-radius: 6px;
-  color: var(--accent);
+
   text-decoration: none;
   font-size: 0.9rem;
   transition: 0.2s ease;
 }
 
 .btn-Hero:hover {
-  background-color: var(--accent);
+  background-color: var(--text-secondary);
   color: var(--bg-primary);
 }
