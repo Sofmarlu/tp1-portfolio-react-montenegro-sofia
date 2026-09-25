@@ -5,7 +5,7 @@ function Footer() {
     <footer className="footer">
       <p className="footer-nombre">Sofia Montenegro</p>
       <p className="footer-copy">
-        © {new Date().getFullYear()} Todos los derechos reservados.
+        © Todos los derechos reservados.
       </p>
     </footer>
   );
