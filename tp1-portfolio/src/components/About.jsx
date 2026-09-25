@@ -16,7 +16,7 @@ function About(props) {
 
           <div className="about-stat">
             <span className="about-stat-numero">
-              +{props.proyectosRealizados} Proyectos
+              +{props.proyectosRealizados}Proyectos
             </span>
             <span className="about-stat-label">Realizados</span>
           </div>
