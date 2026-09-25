@@ -6,7 +6,7 @@ import "../css/Header.css"
 function Header() {
   return (
     <>
-      <Navbar className="nav-inicio" data-bs-theme="dark">
+      <Navbar className="nav-inicio" data-bs-theme="dark" expand="lg">
         
         <Container>
 
