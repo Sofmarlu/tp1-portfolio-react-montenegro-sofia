@@ -1,7 +1,5 @@
 import { useState } from "react";
-import "../css/Skills.css"
-
-
+import "../css/Skills.css";
 
 const skills = [
   { nombre: "React", nivel: 90 },
@@ -19,14 +17,11 @@ function Skills() {
     <section className="skills">
       <h2 className="skills-titulo">Skills</h2>
       <p className="skills-descripcion">
-        Estas son algunas de las tecnologías con las que vengo trabajando
-        y sigo mejorando en cada proyecto.
+        Estas son algunas de las tecnologías con las que vengo trabajando y sigo
+        mejorando en cada proyecto.
       </p>
 
-      <button
-        className="skills-btn"
-        onClick={() => setMostrar(!mostrar)}
-      >
+      <button className="skills-btn" onClick={() => setMostrar(!mostrar)}>
         {mostrar ? "Ocultar skills" : "Mostrar skills"}
       </button>
 
@@ -51,4 +46,4 @@ function Skills() {
     </section>
   );
 }
-export default Skills
+export default Skills;
