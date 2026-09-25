@@ -33,3 +33,13 @@
 .projects-card.card .card-text {
   color: var(--text-secondary);
 }   
+
+.projects-btn.btn-primary {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.projects-btn.btn-primary:hover {
+  background-color: var(--accent);
+  opacity: 0.85;
+}

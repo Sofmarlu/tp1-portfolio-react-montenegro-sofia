@@ -32,7 +32,7 @@ function Projects() {
             <Card.Body>
               <Card.Title>{proyecto.titulo}</Card.Title>
               <Card.Text>{proyecto.descripcion}</Card.Text>
-              <Button variant="primary" target="_blank" href={proyecto.link}>
+              <Button  className="projects-btn" target="_blank" href={proyecto.link}>
                 Ver proyecto
               </Button>
             </Card.Body>
