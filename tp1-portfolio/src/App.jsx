@@ -18,7 +18,9 @@ function App() {
       <Routes>
         <Route element={<Layout />} >
         <Route index element={<Inicio />} />
-        <Route path="about" element={<About />} />
+        <Route path="about" element={<About  descripcion="Soy una estudiante de Programación en la UTN Facultad Regional Tucumán, formándome en desarrollo web y ciberseguridad. Me considero una persona curiosa y autodidacta, interesada en entender cómo funcionan las tecnologías y seguir aprendiendo a través de nuevos proyectos."
+      anios={2}
+      proyectosRealizados={2}/>} />
         <Route path="skills" element={<Skills />} />
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
