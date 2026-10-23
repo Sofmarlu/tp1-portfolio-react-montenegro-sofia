@@ -2,11 +2,12 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../css/Header.css"
+import SideBar from "./SideBar";
 
 function Header() {
   return (
     <>
-      <Navbar className="nav-inicio" data-bs-theme="dark" expand="lg">
+      {/* <Navbar className="nav-inicio" data-bs-theme="dark" expand="lg">
         
         <Container>
 
@@ -23,7 +24,9 @@ function Header() {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar> */}
+
+      <SideBar/>
     </>
   );
 }
