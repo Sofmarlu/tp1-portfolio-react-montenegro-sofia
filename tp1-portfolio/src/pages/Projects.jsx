@@ -1,5 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import ProjectCard from "../components/ProjectCard";
 import "../css/Projects.css";
 
 const proyectos = [
@@ -24,19 +23,8 @@ function Projects() {
     <section className="projects" id="projects">
       <h2 className="projects-titulo">Proyectos</h2>
       <div className="projects-lista">
-
-        {proyectos.map((proyecto) => 
-        (
-          <Card className="projects-card" style={{ width: "18rem" }} key={proyecto.id}>
-            <Card.Img variant="top" src={proyecto.img} />
-            <Card.Body>
-              <Card.Title>{proyecto.titulo}</Card.Title>
-              <Card.Text>{proyecto.descripcion}</Card.Text>
-              <Button  className="projects-btn" target="_blank" href={proyecto.link}>
-                Ver proyecto
-              </Button>
-            </Card.Body>
-          </Card>
+        {proyectos.map((proyecto) => (
+          <ProjectCard key={proyecto.id} {...proyecto} />
         ))}
       </div>
     </section>
