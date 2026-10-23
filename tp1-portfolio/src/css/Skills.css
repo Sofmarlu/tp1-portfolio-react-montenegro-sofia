@@ -1,9 +1,16 @@
 .skills {
   font-family: var(--font-titles);
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-primary);
   color: var(--text-primary);
   padding: 50px 20px;
   text-align: center;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  justify-content: center;  
+  box-sizing: border-box;
 }
 
 .skills-titulo {
@@ -13,16 +20,17 @@
 }
 
 .skills-descripcion {
-  max-width: 480px;
+  max-width: 700px;
   margin: 0 auto;
   color: var(--text-primary);
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
 .skills-btn { 
   background-color: var(--accent);
-  font-weight: 650;
+  font-weight: 400;
+  
   margin-top: 20px;
   padding: 8px 20px;
   border: 1px solid var(--accent);
@@ -39,8 +47,8 @@
 
 .skills-lista {
   font-family: var(--font-titles);
-
-  max-width: 500px;
+  width: 100%; 
+  max-width: 700px;
   margin: 28px auto 0;
   display: flex;
   flex-direction: column;
