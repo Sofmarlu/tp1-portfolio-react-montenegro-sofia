@@ -1,10 +1,10 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-function ProjectCard () {
+function ProjectCard ({titulo, descripcion, img, link}) {
    return(
-    <Card className="projects-card" style={{ width: "18rem" }} key={proyecto.id}>
-            <Card.Img variant="top" src={proyecto.img} />
+    <Card className="projects-card" style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={img} />
             <Card.Body>
               <Card.Title>{titulo}</Card.Title>
               <Card.Text>{descripcion}</Card.Text>
