@@ -21,7 +21,18 @@ function App() {
             path="about"
             element={
               <About
-                descripcion="Soy una estudiante de Programación en la UTN Facultad Regional Tucumán, formándome en desarrollo web y ciberseguridad. Me considero una persona curiosa y autodidacta, interesada en entender cómo funcionan las tecnologías y seguir aprendiendo a través de nuevos proyectos."
+                descripcion={
+                  <>
+                    Soy una estudiante de Programación en la UTN Facultad
+                    Regional Tucumán, actualmente formándome en desarrollo web y
+                    ciberseguridad.
+                    <br />
+                    <br />
+                    Me considero una persona creativa y autodidacta, interesada
+                    en entender cómo funcionan las tecnologías y seguir
+                    aprendiendo a través de nuevos proyectos.
+                  </>
+                }
                 anios={2}
                 proyectosRealizados={2}
               />
