@@ -81,3 +81,16 @@
 .skills-span{
   font-family: var(--font-titles);
 }
+
+@media (max-width: 768px) {
+  .skills-titulo {
+    font-size: 2rem;     /* antes 3rem */
+  }
+
+  .skills-descripcion {
+    font-size: 1.1rem;   /* antes 1.5rem */
+  }
+  .hero {
+    min-height: calc(100dvh - 90px);
+  }
+}

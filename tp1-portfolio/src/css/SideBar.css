@@ -51,3 +51,38 @@
   margin-top: auto; 
   text-align: center;
 }
+
+
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 1rem;
+    z-index: 100;
+  }
+
+  .sidebar-nav {
+    flex: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+
+  .sidebar-link {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .sidebar .footer {
+    display: none;  
+  }
+  .hero {
+    min-height: calc(100dvh - 90px);
+  }
+}

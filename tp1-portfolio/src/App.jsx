@@ -10,10 +10,7 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      {/* <div className="layout"> */}
-      {/* <SideBar /> */}
-
-      {/* <main className="contenido"> */}
+      
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Inicio />} />
@@ -43,8 +40,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
-      {/* </main> */}
-      {/* // </div> */}
+     
     </BrowserRouter>
   );
 }
