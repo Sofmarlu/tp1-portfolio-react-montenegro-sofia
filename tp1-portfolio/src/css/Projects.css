@@ -1,7 +1,13 @@
 .projects {
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  padding: 150px 50px;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   
 }
 
@@ -15,7 +21,7 @@
 
 .projects-lista {
   font-family: var(--font-titles);
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +29,12 @@
   justify-content: center;
 }
 
+.projects-card.card {
+  width: 16rem;
+  background-color: var(--track);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
 .projects-card.card {
   background-color: var(--track);
   border: 1px solid var(--border);
@@ -45,4 +57,16 @@
 .projects-btn.btn-primary:hover {
   background-color: var(--accent);
   opacity: 0.85;
+}
+.projects-techs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+.projects-tech {
+  display: flex;
+  align-items: center;
 }

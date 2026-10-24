@@ -1,11 +1,20 @@
 .about {
+  font-family: var(--font-titles);
   background-color: var(--accent);
   color: var(--text-primary);
   padding: 50px 20px;
   text-align: center;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  justify-content: center;  
+  box-sizing: border-box;
 }
 
 .about-titulo {
+  font-weight: 850;
   color: var(--track);
   font-family: var(--font-titles);
   font-size: 3rem;
@@ -13,12 +22,12 @@
 }
 
 .about-descripcion {
-  font-family: var(--font-body);
-  font-weight: 500;
+ 
+  font-weight: 800;
   max-width: 500px;
   margin: 0 auto;
   color: var(--border);
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   text-align: justify;
   line-height: 1.6;
 }
@@ -50,6 +59,7 @@
 
 .about-stat-label {
   font-family: var(--font-titles);
+  font-weight: 595;
   color: var(--border);
   font-size: 1rem;
 }

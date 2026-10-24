@@ -1,5 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import ProjectCard from "../components/ProjectCard";
 import "../css/Projects.css";
 
 const proyectos = [
@@ -9,6 +8,7 @@ const proyectos = [
     descripcion: "Sistema para un consultorio. CRUD",
     img: "/img/Screenshot_1.png",
     link: "https://vermillion-cheesecake-e4667d.netlify.app/",
+    tecnologias: ["html","css","javascript", "bootstrap"],
   },
   {
     id: 2,
@@ -16,6 +16,15 @@ const proyectos = [
     descripcion: "Primer portfolio para la materia Programacion 3",
     img: "/img/image.png",
     link: "https://primerportfolioooo.netlify.app/",
+    tecnologias: ["html","css","javascript", "bootstrap"]
+  },
+  {
+    id: 3,
+    titulo: "Argetina Advture Tours ",
+    descripcion: "Practicando maquetado con html y css",
+    img: "/img/arg-adventure.png",
+    link: "https://argentina-adventure-tourss.netlify.app/",
+    tecnologias: ["html", "css"]
   },
 ];
 
@@ -24,19 +33,8 @@ function Projects() {
     <section className="projects" id="projects">
       <h2 className="projects-titulo">Proyectos</h2>
       <div className="projects-lista">
-
-        {proyectos.map((proyecto) => 
-        (
-          <Card className="projects-card" style={{ width: "18rem" }} key={proyecto.id}>
-            <Card.Img variant="top" src={proyecto.img} />
-            <Card.Body>
-              <Card.Title>{proyecto.titulo}</Card.Title>
-              <Card.Text>{proyecto.descripcion}</Card.Text>
-              <Button  className="projects-btn" target="_blank" href={proyecto.link}>
-                Ver proyecto
-              </Button>
-            </Card.Body>
-          </Card>
+        {proyectos.map((proyecto) => (
+          <ProjectCard key={proyecto.id} {...proyecto} />
         ))}
       </div>
     </section>
