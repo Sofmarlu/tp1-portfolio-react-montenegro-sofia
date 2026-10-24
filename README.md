@@ -1,18 +1,18 @@
- TP1 - Portfolio React
+ TP2 - Portfolio React
 
  Nombre y apellido
 Sofia Montenegro
+Comision: 5
 
- Descripción del proyecto
-Portfolio personal desarrollado como Trabajo Práctico N°1 para la materia programacion 4, (UTN - Facultad Regional Tucumán). El proyecto presenta información personal, habilidades técnicas y proyectos realizados, construido con React y Vite.
-
+ Portfolio personal de una sola aplicación (SPA) con navegación entre páginas mediante React Router DOM. Presenta quién soy, mis habilidades técnicas, los proyectos que realicé y una página de contacto.
+ 
 Tecnologías utilizadas
-- React
-- Vite
-- JavaScript
-- React Bootstrap
-- React Icons
-- CSS
+React
+Vite
+React Router DOM
+React Bootstrap y Bootstrap
+React Icons y Bootstrap Icons
+CSS
 -------------------------------
 Instalación de dependencias
 Clonar el repositorio y hacer cd en tp1-portfolio
@@ -26,7 +26,6 @@ npm run dev
 
 El proyecto se encuentra disponible en este repositorio de github:  https://github.com/Sofmarlu/tp1-portfolio-react-montenegro-sofia
 
-## Demo
-
-demo: https://6ab6f6496a0dcac94396b1ea--dancing-peony-7f8f4d.netlify.app/
+## Demo 
+demo: 
 
