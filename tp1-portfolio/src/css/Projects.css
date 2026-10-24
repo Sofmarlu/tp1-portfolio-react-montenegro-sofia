@@ -70,3 +70,9 @@
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .projects-titulo {
+    font-size: 2rem;     
+  }
+}

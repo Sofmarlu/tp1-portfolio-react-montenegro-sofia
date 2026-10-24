@@ -53,3 +53,12 @@ font-family: var(--font-titles);
   background-color: var(--text-secondary);
   color: var(--bg-primary);
 }
+
+@media (max-width: 768px) {
+  .hero-titulo {
+    font-size: 2.5rem;  
+  }
+  .hero {
+    min-height: calc(100dvh - 90px);
+  }
+}
