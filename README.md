@@ -27,5 +27,5 @@ npm run dev
 El proyecto se encuentra disponible en este repositorio de github:  https://github.com/Sofmarlu/tp1-portfolio-react-montenegro-sofia
 
 ## Demo 
-demo: 
+demo: https://remarkable-bublanina-0bc962.netlify.app/
 
