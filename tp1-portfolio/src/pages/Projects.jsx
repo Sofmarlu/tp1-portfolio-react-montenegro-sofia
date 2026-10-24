@@ -8,6 +8,7 @@ const proyectos = [
     descripcion: "Sistema para un consultorio. CRUD",
     img: "/img/Screenshot_1.png",
     link: "https://vermillion-cheesecake-e4667d.netlify.app/",
+    tecnologias: ["javascript", "bootstrap", "css"],
   },
   {
     id: 2,
@@ -15,6 +16,15 @@ const proyectos = [
     descripcion: "Primer portfolio para la materia Programacion 3",
     img: "/img/image.png",
     link: "https://primerportfolioooo.netlify.app/",
+    tecnologias: ["html", "css", "javascript"]
+  },
+  {
+    id: 3,
+    titulo: "Argetina Advture Tours ",
+    descripcion: "Practicando maquetado con html y css",
+    img: "/img/arg-adventure.png",
+    link: "https://argentina-adventure-tourss.netlify.app/",
+    tecnologias: ["html", "css"]
   },
 ];
 

@@ -46,3 +46,15 @@
   background-color: var(--accent);
   opacity: 0.85;
 }
+.projects-techs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+.projects-tech {
+  display: flex;
+  align-items: center;
+}
